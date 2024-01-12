@@ -61,7 +61,7 @@
 
         <div class="box">
             <h3>Contact info</h3>
-            <a href="#"><i class="fas fa-phone"></i> +23-456-7890 </a>
+            <a href="#"><i class="fas fa-phone"></i> +123-456-7890 </a>
             <a href="#"><i class="fas fa-phone"></i> +111-222-3333 </a>
             <a href="#"><i class="fas fa-envelope"></i> manu@gmail.com </a>
             <a href="#"><i class="fas fa-map"></i> colombo, SriLanka </a>

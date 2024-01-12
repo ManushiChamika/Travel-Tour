@@ -229,14 +229,14 @@ section{
 .home-about .image img{
     width: 100%;
     box-shadow: var(--box-shadow);
-    border-radius: 30px;
+    border-radius: 25px;
 }
 
 .home-about .content{
     flex:1 1 41rem;
     padding: 3rem;
     background: var(--light-bg);
-    border-radius: 30px;
+    border-radius: 25px;
 }
 
 .home-about .content h3{
