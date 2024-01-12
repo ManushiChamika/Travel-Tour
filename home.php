@@ -134,12 +134,42 @@
     <div class="box-container">
         <div class="box">
             <div class="image">
-                <img src="">
+                <img src="./css/images/about3.jpg" alt="tourism place">
+            </div>
+            <div class="content">
                 <h3>adventures and tour</h3>
-                <p></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit!</p>
+                <a href="book.php" class="btn"> book now </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./css/images/about2.jpg" alt="tourism place">
+            </div>
+            <div class="content">
+                <h3>adventures and tour</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit!</p>
+                <a href="book.php" class="btn"> book now </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./css/images/about4.jpg" alt="tourism place">
+            </div>
+            <div class="content">
+                <h3>adventures and tour</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit!</p>
+                <a href="book.php" class="btn"> book now </a>
             </div>
         </div>
     </div>
+
+    <div class="load-more">
+        <a href="package.php" class="btn"> load more </a>
+    </div>
+
 </section>
 
 

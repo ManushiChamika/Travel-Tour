@@ -3,6 +3,7 @@
 :root{
     --main-color:#8e44ad;
     --black:#222;
+    --marian-blue: #E1EBEE;
     --white:#fff;
     --light-black:#777;
     --light-white:#fff9;
@@ -196,11 +197,12 @@ section{
     text-align: center;
     background: var(--main-color);
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .services .box-container .box img{
-    height: 50px;
-    width: 50px;
+    height: 69px;
+    width: 69px;
 }
 
 .services .box-container .box:hover{
@@ -226,12 +228,15 @@ section{
 
 .home-about .image img{
     width: 100%;
+    box-shadow: var(--box-shadow);
+    border-radius: 30px;
 }
 
 .home-about .content{
     flex:1 1 41rem;
     padding: 3rem;
     background: var(--light-bg);
+    border-radius: 30px;
 }
 
 .home-about .content h3{
@@ -249,7 +254,41 @@ section{
 
 /* home packages section starts */
 
+.home-packages{
+    background-color: var(--marian-blue);
+}
 
+.home-packages .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+.home-packages .box-container .box{
+    background: var(--white);
+    border-radius: 20px;
+}
+
+.home-packages .box-container .box .image{
+    height: 25rem;
+    overflow: hidden;
+}
+.home-packages .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+    border-radius: 20px;
+}
+
+.home-packages .box-container .box .content{
+    padding: 2rem;
+    text-align: center;
+}
+
+.home-packages .box-container .box .content h3{
+    font-size: 2.5rem;
+}
 
 /* home packages section ends */
 
