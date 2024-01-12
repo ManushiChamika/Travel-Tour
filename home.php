@@ -130,7 +130,7 @@
 <!-- home packages section starts -->
 
 <section class="home-packages">
-    <h1 class="heading"> our packages </h1>
+    <h1 class="heading-title"> our packages </h1>
     <div class="box-container">
         <div class="box">
             <div class="image">
