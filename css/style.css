@@ -53,7 +53,9 @@ section{
     }
 }
 
+.heading{
 
+}
 .btn{
     display: inline-block;
     background: var(--black);
@@ -274,6 +276,8 @@ section{
     height: 25rem;
     overflow: hidden;
 }
+
+
 .home-packages .box-container .box .image img{
     height: 100%;
     width: 100%;
@@ -304,11 +308,52 @@ section{
 
 .home-packages .load-more .btn{
     border-radius: 25px;
-    background-color: var(--main-color);
+    background-color: var(--light-black);
+}
+
+.home-packages .load-more .btn:hover{
+    background: var(--main-color);
+}
+/* home packages section ends */
+
+
+/* home offer section starts */
+
+.home-offer{
+    text-align: center;
+}
+
+.home-offer .content{
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.home-offer .content h3{
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.home-offer .content p{
+    font-size: 1.5rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
 }
 
 
-/* home packages section ends */
+
+
+
+
+
+
+
+
+
+
+/* home offer section ends */
+
 
 .heading{
     background-size: cover;
