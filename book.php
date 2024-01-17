@@ -34,7 +34,7 @@
 </section>
 
 <!-- header section ends -->
-<div class="heading" style="background:url(./css/images/header-3.jpg) no-repeat">
+<div class="heading" style="background:url(./css/images/aboutus3.jpg) no-repeat">
     <h1>book now</h1>
 </div>
 

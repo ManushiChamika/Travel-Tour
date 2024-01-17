@@ -326,7 +326,7 @@ section{
 }
 
 .home-packages .load-more .btn:hover{
-    background: var(--light-white);
+    background: var(--main-color);
 }
 /* home packages section ends */
 
