@@ -34,7 +34,7 @@
 </section>
 
 <!-- header section ends -->
-<div class="heading" style="background:url(./css/images/aboutus5.jpg) no-repeat">
+<div class="heading" style="background:url(./css/images/aboutus6.jpg) no-repeat">
     <h1>about us</h1>
 </div>
 
@@ -42,7 +42,7 @@
 
 <section class="about">
     <div class="image">
-        <img src="./css/images/about1.jpg" alt="">
+        <img src="./css/images/aboutone.jpg" alt="">
     </div>
 
     <div class="content">
