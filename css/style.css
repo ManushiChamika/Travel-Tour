@@ -368,6 +368,7 @@ section{
 
 .about .image img{
     width: 100%;
+    border-radius: 20px;
 }
 
 .about .content{
@@ -387,12 +388,32 @@ section{
     padding: 1rem 0;
 }
 
+.about .content .icons-container{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: flex-end;
+}
 
+.about .content .icons-container .icons{
+    background: var(--light-bg);
+    padding: 2rem;
+    flex: 1 1 16rem;
+    border-radius: 20px;
+}
 
+.about .content .icons-container .icons i{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: var(--main-color);
+}
 
-
-
-
+.about .content .icons-container .icons span{
+    font-size: 1.5rem;
+    color: var(--light-black);
+    display: block;
+}
 
 
 

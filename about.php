@@ -42,7 +42,7 @@
 
 <section class="about">
     <div class="image">
-        <img src="./css/images/aboutone.jpg" alt="">
+        <img src="./css/images/aboutone.jpg" alt="a photo of a family">
     </div>
 
     <div class="content">
