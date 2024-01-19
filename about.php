@@ -67,6 +67,68 @@
 </section>
 <!-- about section ends -->
 
+<!-- reviews section starts -->
+
+<section class="reviews">
+    <div class="reviews-slider">
+        <div class="w">
+            <div class="slide">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                    <h3>jonan kennedy</h3>
+                    <span>traveler</span>
+                    <img src="./css/images/review1.jpg" alt="traveler">
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                    <h3>kiara hampson</h3>
+                    <span>explorer</span>
+                    <img src="./css/images/review3.jpg" alt="traveler">
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                    <h3>paul hudson</h3>
+                    <span>tourist photographer</span>
+                    <img src="./css/images/review2.jpg" alt="traveler">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                    <h3>karson ridgson & stephanie parison</h3>
+                    <span>travelers</span>
+                    <img src="./css/images/review4.jpg" alt="traveler">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- reviews section ends -->
+
+
 <!-- footer section starts -->
 <section class="footer">
 
