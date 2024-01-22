@@ -86,15 +86,6 @@
     </form>
 </section>
 
-
-
-
-
-
-
-
-
-
 <!-- booking section ends -->
 
 <!-- footer section starts -->
