@@ -22,8 +22,8 @@ var swiper = new Swiper(".home-slider", {
 var swiper = new Swiper(".reviews-slider", {
     loop:true,
     spaceBetween:20,
-    autoHeight:true,
-    grabCursor:true,
+    // autoHeight:true,
+    grabCursor: 1,
     breakpoints: {
         640: {
           slidesPerView: 1,
@@ -36,3 +36,4 @@ var swiper = new Swiper(".reviews-slider", {
         },
       },
 });
+

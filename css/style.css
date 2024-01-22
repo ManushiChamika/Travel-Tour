@@ -432,6 +432,7 @@ section{
     /* box-shadow: var(--box-shadow); */
     border: 10px solid var(--light-bg);
     border-radius: 20px;
+    user-select: none;
 }
 
 
