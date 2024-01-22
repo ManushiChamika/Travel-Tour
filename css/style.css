@@ -287,11 +287,14 @@ section{
     border-radius: 20px;
 }
 
-.home-packages .box-container .box .image{
-    height: 25rem;
-    overflow: hidden;
+.home-packages .box-container .box:hover .image img{
+    transform: scale(1.1);
 }
 
+.home-packages .box-container .box .image{
+    height: 25rem;
+     overflow: hidden;
+}
 
 .home-packages .box-container .box .image img{
     height: 100%;
@@ -308,6 +311,14 @@ section{
 
 .home-packages .box-container .box .content h3{
     font-size: 2.5rem;
+    color: var(--black);
+}
+
+.home-packages .box-container .box .content p{
+    font-size: 1.5rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
 }
 
 .home-packages .load-more{
@@ -474,12 +485,104 @@ section{
     border-top: 0.9px;
 }
 
-
 /* reviews section ends */
 
+/* packages section starts */
+
+.packages{
+    background-color: var(--marian-blue);
+}
+
+.packages .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+.packages .box-container .box{
+    background: var(--white);
+    border-radius: 20px;
+    display: none;
+}
+
+.packages .box-container .box:nth-child(1),
+.packages .box-container .box:nth-child(2),
+.packages .box-container .box:nth-child(3),
+.packages .box-container .box:nth-child(4),
+.packages .box-container .box:nth-child(5),
+.packages .box-container .box:nth-child(6){
+    display: inline-block;
+}
+
+.packages .box-container .box:hover .image img{
+    transform: scale(1.1);
+}
+
+.packages .box-container .box .image{
+    height: 25rem;
+    overflow: hidden;
+}
+
+.packages .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+    border-radius: 20px;
+}
+
+
+.packages .box-container .box .content{
+    padding: 2rem;
+    text-align: center;
+}
+
+.packages .box-container .box .content h3{
+    font-size: 2.5rem;
+}
+
+.packages .box-container .box .content p{
+    font-size: 1.4rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+.packages .load-more{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.packages .load-more a{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--marian-blue);
+}
+
+.packages .load-more .btn{
+    border-radius: 25px;
+    background-color: var(--light-black);
+}
+
+.packages .load-more .btn:hover{
+    background: var(--main-color);
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* packages section ends */
 
 .heading{
     background-size: cover;
