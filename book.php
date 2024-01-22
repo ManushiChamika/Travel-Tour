@@ -70,6 +70,7 @@
             <span>how many :</span>
             <input type="number" placeholder="number of guests" name="guests">
         </div>
+        <!-- input a calender -->
         <div class="inputBox">
             <span>arrivals :</span>
             <input type="date" name="arrivals">
